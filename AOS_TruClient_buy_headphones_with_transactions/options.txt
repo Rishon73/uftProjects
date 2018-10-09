@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\demo\Documents\VuGen\Scripts\AOS_TruClient_buy_headphones_with_transactions
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\demo\documents\vugen\scripts\aos_truclient_buy_headphones_with_transactions\\logfile.log
+c:\users\demo\documents\vugen\scripts\aos_truclient_buy_headphones_with_transactions\\combined_AOS_TruClient_buy_headphones_with_transactions.c
+c:\users\demo\documents\vugen\scripts\aos_truclient_buy_headphones_with_transactions\\pre_cci.c

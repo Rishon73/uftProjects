@@ -1,0 +1,75 @@
+[General]
+Type=TC4Mobile
+DefaultCfg=default.cfg
+MajorVersion=12
+MinorVersion=56
+ParameterFile=
+GlobalParameterFile=
+NewFunctionHeader=1
+LastActiveAction=Script-View
+DevelopTool=Vugen
+LastModifyVer=12.56.0.985
+ActiveTypes=TC4Mobile
+AdditionalTypes=TC4Mobile
+GenerateTypes=TC4Mobile
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+RunType=cci
+LastCodeGenerationVer=12.56.0.985
+DisableRegenerate=0
+Encoding=
+Description=
+ScriptLocale=en-US
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+Script-View=Script-View.c
+vuser_end=vuser_end.c
+[VisibleActions]
+Script-View=1
+vuser_init=0
+Action=0
+vuser_end=0
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+"Default Profile"=default.cfg
+[RunLogicFiles]
+"Default Profile"=default.usp
+[ExtraFiles]
+C-functions.c=
+globals.h=
+JS-functions.js=
+[Interpreters]
+vuser_init=cci
+Action=cci
+Script-View=no
+vuser_end=cci
+[Recorded Actions]
+vuser_init=0
+Action=0
+Script-View=1
+vuser_end=0
+[Modified Actions]
+vuser_init=0
+Action=0
+Script-View=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=0
+Action=0
+Script-View=1
+vuser_end=0
+[TransactionsOrder]
+Order="01_login__*delimiter*__02_select_and _put_in_cart__*delimiter*__03_checkout_and_pay__*delimiter*__04_sign_out"
+[StateManagement]
+LastReplayStatus=0
+[ActiveReplay]
+LastReplayedRunName=
+ActiveRunName=
+[Transactions]
+01_login=
+"02_select_and _put_in_cart"=
+03_checkout_and_pay=
+04_sign_out=
