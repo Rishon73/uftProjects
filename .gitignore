@@ -4,9 +4,10 @@
  
 # Shahar
 #--------------
-Action*/
-result*/
-resultSnap/
-profile/
-
-
+**/Action*/
+**/result*/
+**/resultSnap/
+**/profiles/
+**/data/
+**/snapshots/
+*.log
